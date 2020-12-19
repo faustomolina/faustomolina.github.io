@@ -11,6 +11,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link rel="stylesheet" href="css/ej05.css">
+  <link rel="stylesheet" href="css/scrollup.css">
 </head>
 
 <body>
@@ -19,20 +20,20 @@
       <a id="logo-container" href="#" class="brand-logo white-text">Fausto Molina</a>
       <ul class="right hide-on-med-and-down">
         <li><a class="white-text" href="#tp1">TP 1</a></li>
-        <li><a class="white-text" href="#">TP 2</a></li>
-        <li><a class="white-text" href="#">TP 3</a></li>
-        <li><a class="white-text" href="#">TP 4</a></li>
-        <li><a class="white-text" href="#">TP 5</a></li>
-        <li><a class="white-text" href="#">TP Final</a></li>
+        <li><a class="white-text" href="#tp2">TP 2</a></li>
+        <li><a class="white-text" href="#tp3">TP 3</a></li>
+        <li><a class="white-text" href="#tp4">TP 4</a></li>
+        <li><a class="white-text" href="#tp5">TP 5</a></li>
+        <li><a class="white-text" href="#tpfinal">TP Final</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
         <li><a href="#tp1">TP 1</a></li>
-        <li><a href="#">TP 2</a></li>
-        <li><a href="#">TP 3</a></li>
-        <li><a href="#">TP 4</a></li>
-        <li><a href="#">TP 5</a></li>
-        <li><a href="#">TP Final</a></li>
+        <li><a href="#tp2">TP 2</a></li>
+        <li><a href="#tp3">TP 3</a></li>
+        <li><a href="#tp4">TP 4</a></li>
+        <li><a href="#tp5">TP 5</a></li>
+        <li><a href="#tpfinal">TP Final</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -59,7 +60,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h1 class="header col s12 indigo-text">TP 1</h1>
+          <h1 id="tp1" class="header col s12 indigo-text">TP 1</h1>
         </div>
       </div>
     </div>
@@ -80,7 +81,7 @@
         <div class="section">
           <div class="row">
             <div class="col s12 m4">
-              <h3 id="tp1" class="center">TP 1</h3>
+              <h3 class="center">TP 1</h3>
               <p class="light center">La consigna fue hacer un círculo cromático a libre elección de su forma y diseño.
               </p>
             </div>
@@ -197,7 +198,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h1 class="header col s12 indigo-text">TP 2</h1>
+          <h1 id="tp2" class="header col s12 indigo-text">TP 2</h1>
         </div>
       </div>
     </div>
@@ -218,7 +219,7 @@
         <div class="section">
           <div class="row">
             <div class="col s12 m4">
-              <h3 id="tp1" class="center">TP 2</h3>
+              <h3 class="center">TP 2</h3>
               <p class="light center">Tuvimos que realizar los creditos de una pelicula agregando moviemiento a sus
                 imagenes y textos.</p>
             </div>
@@ -311,7 +312,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h1 class="header col s12 indigo-text">TP 3</h1>
+          <h1 id="tp3" class="header col s12 indigo-text">TP 3</h1>
         </div>
       </div>
     </div>
@@ -332,7 +333,7 @@
         <div class="section">
           <div class="row">
             <div class="col s12 m4">
-              <h3 id="tp1" class="center">TP 3</h3>
+              <h3 class="center">TP 3</h3>
               <p class="light center">Realizamos una aventura grafica, a partir de una novela ya hecha y tuvimos que
                 inventar nosotros los diferentes caminos a seguir. Mi novela es La isla del tesoro.</p>
             </div>
@@ -371,7 +372,8 @@
           </ul>
         </div>
         <div id="tp31" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-built_in" style="color: rgb(57, 115, 0);">float</span> pantalla=<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>;
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-built_in" style="color: rgb(57, 115, 0);">float</span> pantalla=<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> posYinicial, posY;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> altRes;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> altPreg;
@@ -413,7 +415,8 @@
             }</pre>
         </div>
         <div id="creditos1" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla21(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla21(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">tint</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">150</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(creditos,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
@@ -447,7 +450,8 @@
           }</pre>
         </div>
         <div id="draw1" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">draw</span>(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">draw</span>(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">background</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">200</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">fill</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">255</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">tint</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">255</span>);
@@ -534,7 +538,8 @@
           }</pre>
         </div>
         <div id="finales1" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Final Pantalla 2</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Final Pantalla 2</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla0_1(){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(final0_1,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
@@ -629,7 +634,8 @@
             }</pre>
         </div>
         <div id="inicio1" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla20() {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla20() {
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(fondo,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             
             <span class="hljs-comment" style="color: rgb(136, 136, 136);">//Título</span>
@@ -675,7 +681,8 @@
           }</pre>
         </div>
         <div id="mouse1" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">mousePressed</span>(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">mousePressed</span>(){
             <span class="hljs-keyword" style="font-weight: 700;">if</span> (pantalla==<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>){
               mousePantalla20();
             }<span class="hljs-keyword" style="font-weight: 700;">else</span>
@@ -746,7 +753,8 @@
           }</pre>
         </div>
         <div id="pantalla11" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla1(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla1(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla1,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -768,7 +776,8 @@
           }</pre>
         </div>
         <div id="pantalla21" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla2(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla2(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla2,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-comment" style="color: rgb(136, 136, 136);">//Pregunta</span>
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
@@ -811,7 +820,8 @@
           }</pre>
         </div>
         <div id="pantalla31" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla3(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla3(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla3,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -829,7 +839,8 @@
           }</pre>
         </div>
         <div id="pantalla41" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla4(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla4(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla4,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -849,7 +860,8 @@
           }</pre>
         </div>
         <div id="pantalla51" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla5(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla5(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla5,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -889,7 +901,8 @@
           }</pre>
         </div>
         <div id="pantalla61" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla6(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla6(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla6,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -934,7 +947,8 @@
           }</pre>
         </div>
         <div id="pantalla71" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla7(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla7(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla7,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -954,7 +968,8 @@
           }</pre>
         </div>
         <div id="pantalla81" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla8(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla8(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla8,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -1004,7 +1019,8 @@
           }</pre>
         </div>
         <div id="pantalla91" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla9(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla9(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla9,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -1049,7 +1065,8 @@
           }</pre>
         </div>
         <div id="pantalla101" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla10(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla10(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla10,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -1063,7 +1080,8 @@
           }</pre>
         </div>
         <div id="pantalla111" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla11(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla11(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla11,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -1108,7 +1126,8 @@
           }</pre>
         </div>
         <div id="pantalla121" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla12(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla12(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla12,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -1152,7 +1171,8 @@
           }</pre>
         </div>
         <div id="pantalla131" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla13(){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> pantalla13(){
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(pantalla13,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(CENTER);
@@ -1177,7 +1197,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h1 class="header col s12 indigo-text">TP 4</h1>
+          <h1 id="tp4" class="header col s12 indigo-text">TP 4</h1>
         </div>
       </div>
     </div>
@@ -1198,7 +1218,7 @@
         <div class="section">
           <div class="row">
             <div class="col s12 m4">
-              <h3 id="tp1" class="center">TP 4</h3>
+              <h3 class="center">TP 4</h3>
               <p class="light center">Para este TP tuvimos que tomar el TP 3 y usar funciones para reutilizar
                 código y arreglos.</p>
             </div>
@@ -1231,7 +1251,8 @@
           </ul>
         </div>
         <div id="tp42" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> pantallaActual;
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> pantallaActual;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> cantPant = <span class="hljs-number" style="color: rgb(136, 0, 0);">22</span>;
             
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> [][] Pants = <span class="hljs-keyword" style="font-weight: 700;">new</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span>[cantPant][<span class="hljs-number" style="color: rgb(136, 0, 0);">2</span>];
@@ -1294,7 +1315,8 @@
             }</pre>
         </div>
         <div id="botones2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Carga valores de los botones</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Carga valores de los botones</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> botones (<span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> Pants[][]){
               Pants[<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>][<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>] = <span class="hljs-number" style="color: rgb(136, 0, 0);">21</span>; <span class="hljs-comment" style="color: rgb(136, 136, 136);">// botón izquierdo</span>
               Pants[<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>][<span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>] = <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>; <span class="hljs-comment" style="color: rgb(136, 136, 136);">// botón derecho</span>
@@ -1366,7 +1388,8 @@
             }</pre>
         </div>
         <div id="cargarbot2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Carga de texto de los botones</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Carga de texto de los botones</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> cargarBotones(<span class="hljs-keyword" style="font-weight: 700;">String</span> textbot[][]){
               textbot [<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>] [<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>] = <span class="hljs-string" style="color: rgb(136, 0, 0);">"Creditos"</span>;
               textbot [<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>] [<span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>] = <span class="hljs-string" style="color: rgb(136, 0, 0);">"Iniciar"</span>;
@@ -1446,7 +1469,8 @@
             }</pre>
         </div>
         <div id="cargartxt2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">&lt;pre class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"</span>&gt;&lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-comment"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"color: rgb(136, 136, 136);"</span>&gt;<span class="hljs-comment" style="color: rgb(136, 136, 136);">// Carga de texto de los botones&lt;/span&gt;</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">&lt;pre class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"</span>&gt;&lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-comment"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"color: rgb(136, 136, 136);"</span>&gt;<span class="hljs-comment" style="color: rgb(136, 136, 136);">// Carga de texto de los botones&lt;/span&gt;</span>
             &lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-keyword"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"font-weight: 700;"</span>&gt;<span class="hljs-keyword" style="font-weight: 700;">void</span>&lt;/span&gt; cargarBotones(&lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-keyword"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"font-weight: 700;"</span>&gt;<span class="hljs-keyword" style="font-weight: 700;">String</span>&lt;/span&gt; textbot[][]){
               textbot [&lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-number"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"color: rgb(136, 0, 0);"</span>&gt;<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>&lt;/span&gt;] [&lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-number"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"color: rgb(136, 0, 0);"</span>&gt;<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>&lt;/span&gt;] = &lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-string"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"color: rgb(136, 0, 0);"</span>&gt;<span class="hljs-string" style="color: rgb(136, 0, 0);">"Creditos"</span>&lt;/span&gt;;
               textbot [&lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-number"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"color: rgb(136, 0, 0);"</span>&gt;<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>&lt;/span&gt;] [&lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-number"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"color: rgb(136, 0, 0);"</span>&gt;<span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>&lt;/span&gt;] = &lt;span class=<span class="hljs-string" style="color: rgb(136, 0, 0);">"hljs-string"</span> style=<span class="hljs-string" style="color: rgb(136, 0, 0);">"color: rgb(136, 0, 0);"</span>&gt;<span class="hljs-string" style="color: rgb(136, 0, 0);">"Iniciar"</span>&lt;/span&gt;;
@@ -1526,7 +1550,8 @@
             }&lt;/pre&gt;</pre>
         </div>
         <div id="creditos2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Pantalla de creditos</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Pantalla de creditos</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> creditos(<span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> pantallaActual){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">pushStyle</span>();
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">tint</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">150</span>);
@@ -1552,7 +1577,8 @@
             }</pre>
         </div>
         <div id="finales2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Pantallas de los finales</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Pantallas de los finales</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> finales (<span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> pantallaActual){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(imagenes[pantallaActual],<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>,<span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(CENTER);
@@ -1565,7 +1591,8 @@
             }</pre>
         </div>
         <div id="inicializar2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> inicializar(<span class="hljs-keyword" style="font-weight: 700;">PImage</span> imagenes [],<span class="hljs-keyword" style="font-weight: 700;">String</span> textos[][],<span class="hljs-keyword" style="font-weight: 700;">String</span> textbot[][]){
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">void</span> inicializar(<span class="hljs-keyword" style="font-weight: 700;">PImage</span> imagenes [],<span class="hljs-keyword" style="font-weight: 700;">String</span> textos[][],<span class="hljs-keyword" style="font-weight: 700;">String</span> textbot[][]){
             <span class="hljs-comment" style="color: rgb(136, 136, 136);">//Imagenes</span>
             <span class="hljs-keyword" style="font-weight: 700;">for</span> (<span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> i = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>; i &lt; imagenes.length; i++) {
               imagenes[i] = <span class="hljs-built_in" style="color: rgb(57, 115, 0);">loadImage</span>(i + <span class="hljs-string" style="color: rgb(136, 0, 0);">".jpg"</span>);
@@ -1578,7 +1605,8 @@
           }</pre>
         </div>
         <div id="inicio2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Pantalla Principal</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Pantalla Principal</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> inicio(<span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> pantallaActual){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(imagenes[pantallaActual], <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>, <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>, <span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>, <span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -1604,7 +1632,8 @@
             }</pre>
         </div>
         <div id="pantunbot2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Pantallas con un boton</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Pantallas con un boton</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> pantUnBot(<span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> pantallaActual){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(imagenes[pantallaActual], <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>, <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>, <span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>, <span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(LEFT);
@@ -1615,7 +1644,8 @@
             }</pre>
         </div>
         <div id="pantallas2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Generar pantallas</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Generar pantallas</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> pantallas(<span class="hljs-keyword" style="font-weight: 700;">PImage</span> imagenes [],<span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> pantallaActual,<span class="hljs-keyword" style="font-weight: 700;">String</span> textos [][],<span class="hljs-keyword" style="font-weight: 700;">String</span> textbot [][]){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">image</span>(imagenes[pantallaActual], <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>, <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>, <span class="hljs-built_in" style="color: rgb(57, 115, 0);">width</span>, <span class="hljs-built_in" style="color: rgb(57, 115, 0);">height</span>);
               texts(textos,pantallaActual);
@@ -1638,7 +1668,8 @@
             }</pre>
         </div>
         <div id="rects2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Rectangulos de los botones</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Rectangulos de los botones</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> rects(){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">pushStyle</span>();
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">rectMode</span>(CORNERS);
@@ -1654,7 +1685,8 @@
             }</pre>
         </div>
         <div id="texts2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Textos pantallas</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Textos pantallas</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> texts(<span class="hljs-keyword" style="font-weight: 700;">String</span> textos [][],<span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> pantallaActual){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textSize</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">20</span>);
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">fill</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">255</span>);
@@ -1665,7 +1697,8 @@
             }</pre>
         </div>
         <div id="txt2" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Texto de los botones</span>
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-comment" style="color: rgb(136, 136, 136);">// Texto de los botones</span>
             <span class="hljs-keyword" style="font-weight: 700;">void</span> txt_bot(<span class="hljs-keyword" style="font-weight: 700;">String</span> textbot[][], <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> pantallaActual){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">textAlign</span>(CENTER,CENTER);
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">text</span> (textbot [pantallaActual] [<span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>],PorcentajeX(<span class="hljs-number" style="color: rgb(136, 0, 0);">200</span>),PorcentajeY(<span class="hljs-number" style="color: rgb(136, 0, 0);">580</span>));
@@ -1681,7 +1714,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h1 class="header col s12 indigo-text">TP 5</h1>
+          <h1 id="tp5" class="header col s12 indigo-text">TP 5</h1>
         </div>
       </div>
     </div>
@@ -1702,10 +1735,13 @@
         <div class="section">
           <div class="row">
             <div class="col s12 m4">
-              <h3 id="tp1" class="center">TP 5</h3>
+              <h3 class="center">TP 5</h3>
               <p class="light center">En este TP hicimos un juego con Programación Orientada a Objetos. La
                 elección del juego era libre, pero tenía que tener coherencia con nuestas aventura, ya que a
-                futuro lo vamos a utilizar para reemplazar una pantalla de la aventura. En mi caso, el juego que realicé va de abrir la cerradura del cofre. Para esto hay que hacer click para bajar los pernos y soltar para dejarlo en la zona marcada, si se suelta y no está en su zona, el mismo vuelve a su posición original y se pierde un intento. Hay tres intentos en total.</p>
+                futuro lo vamos a utilizar para reemplazar una pantalla de la aventura. En mi caso, el juego que realicé
+                va de abrir la cerradura del cofre. Para esto hay que hacer click para bajar los pernos y soltar para
+                dejarlo en la zona marcada, si se suelta y no está en su zona, el mismo vuelve a su posición original y
+                se pierde un intento. Hay tres intentos en total.</p>
             </div>
             <div class="col s12 m8">
               <video class="responsive-video" controls>
@@ -1728,7 +1764,8 @@
           </ul>
         </div>
         <div id="tp53" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">Juego juego;
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">Juego juego;
 
             <span class="hljs-keyword" style="font-weight: 700;">void</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">setup</span>(){
               <span class="hljs-built_in" style="color: rgb(57, 115, 0);">size</span>(<span class="hljs-number" style="color: rgb(136, 0, 0);">800</span>,<span class="hljs-number" style="color: rgb(136, 0, 0);">600</span>);
@@ -1750,7 +1787,8 @@
             }</pre>
         </div>
         <div id="intentos3" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Intentos{
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Intentos{
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> vidas=<span class="hljs-number" style="color: rgb(136, 0, 0);">3</span>;
             Intentos(){
             }
@@ -1777,7 +1815,8 @@
           }</pre>
         </div>
         <div id="juego3" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Juego {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Juego {
 
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> estado = <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>;
             Intentos intentos;
@@ -1833,7 +1872,8 @@
           }</pre>
         </div>
         <div id="perno3" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Perno {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Perno {
             <span class="hljs-keyword" style="font-weight: 700;">PImage</span> imagenPerno;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">boolean</span> pressed;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> posX, posY, posYinicial, anchoPerno, altPerno;
@@ -1924,7 +1964,8 @@
           }</pre>
         </div>
         <div id="videojuego3" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class VideoJuego {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class VideoJuego {
             Perno [] pernos;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> cantidadPernos = <span class="hljs-number" style="color: rgb(136, 0, 0);">5</span>;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> posX;
@@ -2028,7 +2069,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h1 class="header col s12 indigo-text">TP FINAL</h1>
+          <h1 id="tpfinal" class="header col s12 indigo-text">TP FINAL</h1>
         </div>
       </div>
     </div>
@@ -2049,7 +2090,7 @@
         <div class="section">
           <div class="row">
             <div class="col s12 m4">
-              <h3 id="tp1" class="center">TP FINAL</h3>
+              <h3 class="center">TP FINAL</h3>
               <p class="light center">Y por último, para el TP Final tomamos nuestra aventura gráfica y la
                 convertimos a objetos. Y también le insertamos el juego, reemplazando una pantalla de la
                 aventura.</p>
@@ -2082,7 +2123,8 @@
           </ul>
         </div>
         <div id="tpfinal4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">import</span> processing.sound.*;
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="hljs-keyword" style="font-weight: 700;">import</span> processing.sound.*;
 
             Controlador controlador;
             
@@ -2107,7 +2149,8 @@
             }</pre>
         </div>
         <div id="boton4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Boton {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Boton {
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> posX, posY, ancho, alto, pantallaAIr;
             <span class="hljs-keyword" style="font-weight: 700;">String</span> texto;
             Escala escala;
@@ -2159,7 +2202,8 @@
           }</pre>
         </div>
         <div id="controlador4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Controlador {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Controlador {
             SoundFile clack, musicafondo, sonidoperder, tada;
             Pantalla pantallaActual;
             Creditos creditos;
@@ -2370,7 +2414,8 @@
           }</pre>
         </div>
         <div id="creditos4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Creditos {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Creditos {
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> posX, posY;
             <span class="hljs-keyword" style="font-weight: 700;">String</span> texto;
             Escala escala;
@@ -2401,7 +2446,8 @@
           }</pre>
         </div>
         <div id="escala4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Escala {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Escala {
 
             Escala() {
             }
@@ -2415,7 +2461,8 @@
           }</pre>
         </div>
         <div id="intentos4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Intentos {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Intentos {
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> vidas=<span class="hljs-number" style="color: rgb(136, 0, 0);">3</span>;
             Intentos() {
             }
@@ -2442,7 +2489,8 @@
           }</pre>
         </div>
         <div id="juego4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Juego {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Juego {
 
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> estado = <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>;
             Intentos intentos;
@@ -2504,7 +2552,8 @@
           }</pre>
         </div>
         <div id="pantalla4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Pantalla {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Pantalla {
             Boton[] botones;
             Texto[] textos;
             <span class="hljs-keyword" style="font-weight: 700;">PImage</span> fondo;
@@ -2588,7 +2637,8 @@
           }</pre>
         </div>
         <div id="perno4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Perno {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Perno {
             <span class="hljs-keyword" style="font-weight: 700;">PImage</span> imagenPerno;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">boolean</span> pressed;
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> posX, posY, posYinicial, anchoPerno, altPerno;
@@ -2685,7 +2735,8 @@
           }</pre>
         </div>
         <div id="texto4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Texto {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Texto {
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> posX, posY, ancho, alto, pantallaAIr;
             <span class="hljs-keyword" style="font-weight: 700;">String</span> texto;
             Escala escala;
@@ -2703,7 +2754,8 @@
           }</pre>
         </div>
         <div id="texots4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Textos {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class Textos {
             <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> cantidadPantallas = <span class="hljs-number" style="color: rgb(136, 0, 0);">22</span>;
             <span class="hljs-keyword" style="font-weight: 700;">String</span> textosPantallas [][];
             <span class="hljs-keyword" style="font-weight: 700;">String</span> textosPantallaBotones [][];
@@ -2914,7 +2966,8 @@
           }</pre>
         </div>
         <div id="videojuego4" class="col s12">
-          <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class VideoJuego {
+          <pre class="hljs"
+            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">class VideoJuego {
   Perno [] pernos;
   <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> cantidadPernos = <span class="hljs-number" style="color: rgb(136, 0, 0);">5</span>;
   <span class="hljs-built_in" style="color: rgb(57, 115, 0);">int</span> posX;
@@ -3070,6 +3123,10 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <a href="#up" class="simplescrollup__button simplescrollup__button--hide">
+    <img src="img/arriba.png" alt="arriba">
+  </a>
+  <script src="js/simplescrollup.js"></script>
 
 </body>
 
